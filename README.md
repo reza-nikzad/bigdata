@@ -14,6 +14,7 @@ The class of models to be applied to the dataset:
 
 
 
+
 Algorithms:
   Popularity filtering
   Content-Based filtering
