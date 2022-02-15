@@ -21,14 +21,14 @@ Questions: (Recommending music)
  
  
  
-What genre, song, artist or album would a user prefer to be recommended?
-How can we use the data set to identify users with similar musical preferences?
-What are the qualities that consumers want to see in their playlists?
-What is the best way to extract item features from a data set?
-How can metadata features be linked with patterns in users' listening behaviour?
-What is content-based filtering, and why should we use it?
-What is collaborative filtering, and why should we use it?
-How can we personalise next-track music recommendations by extracting long-term preference signals from users' long-term listening behaviour, such as favourite songs, favourite artists, or favourite themes?
+- What genre, song, artist or album would a user prefer to be recommended?
+- How can we use the data set to identify users with similar musical preferences?
+- What are the qualities that consumers want to see in their playlists?
+- What is the best way to extract item features from a data set?
+- How can metadata features be linked with patterns in users' listening behaviour?
+- What is content-based filtering, and why should we use it?
+- What is collaborative filtering, and why should we use it?
+- How can we personalise next-track music recommendations by extracting long-term preference signals from users' long-term listening behaviour, such as favourite   songs, favourite artists, or favourite themes?
 
  
  
