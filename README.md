@@ -1,7 +1,7 @@
 # bigdata-project-team21
 Music-recommendation-system
 
-Dataset: http://millionsongdataset.com/tasteprofile/
+Dataset: http://millionsongdataset.com/
  - MillionSongSubset
  - TRIPLETS FOR 1M USERS
  
