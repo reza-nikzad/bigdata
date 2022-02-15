@@ -21,7 +21,7 @@ Questions: (Recommending music)
  
  
  
- What genre, song, artist or album would a user prefer to be recommended?
+What genre, song, artist or album would a user prefer to be recommended?
 How can we use the data set to identify users with similar musical preferences?
 What are the qualities that consumers want to see in their playlists?
 What is the best way to extract item features from a data set?
