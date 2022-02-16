@@ -6,8 +6,8 @@ The Million Song Dataset(http://millionsongdataset.com/) will be used in this pr
 - Songs(1M): <Track_id, title, song_id, release, artist_id, artist_name, artist_familiarity, artist_hotttnesss , year>
 - Artists(44745): <artist_id>
 - ArtistsSimilarity(2201916): <artist_id, artist_id>
-- ArtistMBtags(24777): <artist_id, mbtags> 
-- MusicBrainzTags(2321):<mbtags>
+- ArtistMBtags(24777): <artist_id, MBtags> 
+- MusicBrainzTags(2321): <MBtags>
 - ArtistGenre(1109381): <artist_id, genre>
 - Users(1M): <user_id, song_id, played_count>
 
