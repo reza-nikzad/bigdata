@@ -10,9 +10,9 @@
  - Songs MetaData Model.
  
 ## Data preprocessing: 
- - Main characteristics and relative features to our questions: 
- - Pruning the dataset.(removing empty rows)
- - Removing musics from the user dataset which are not in the dataset
+ - Main characteristics and relative features to our questions. 
+ - Pruning the dataset(Removing empty rows).
+ - Removing musics from the user dataset which are not in the dataset.
 
 ## Research Questions: (Recommending music)
 
