@@ -39,7 +39,7 @@ In the evaluation part, the different algorithms could be evaluated and compared
  - Precision(P@k): gives the percentage of relevant documents among the top-k documents.
  - Recall@k : gives percentage of the relevant documents that are succesfully recommended.
  - Average precision(Ap@K): gives the mean of P@i for i=1, ..., K.  
- - Mean average precision at k (MAP@K): gives the mean of Ap@K.
+ - Mean average precision(MAP@K): gives the mean of Ap@K.
  
 
 
