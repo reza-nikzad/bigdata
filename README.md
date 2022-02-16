@@ -34,13 +34,13 @@
 
 
 ## Metrics to measure the accuracy: 
-Prediction accuracy is generally independent of the user interface and can thus be estimated offline and represent implementations of different supervised machine learning evaluation metrics. In this part, the different algorithms could be evaluated and compared. The user dataset is split into training and test. Then, a recommendation model is trained using each of the algorithms below. The metrics give insight into how relevant the list of recommended items is by evaluating top K recommended documents.
+Prediction accuracy is generally independent of the user interface and can be estimated offline by implementing different supervised machine learning evaluation metrics. In this part, the different algorithms could be evaluated and compared. The metrics give insight into how relevant the list of recommended items is. K is chosen as the top number of recommended documents.
 
- - Precision(P@k): gives the percentage of relevant documents among the top-k documents.
- - Recall@k : gives percentage of the relevant documents that are succesfully recommended.
- - Average precision(Ap@K): gives the mean of P@i for i=1, ..., K.  
- - Mean average precision(MAP@K): gives the mean of Ap@K.
- - Personalization (average cosine similarity): gives the dissimilarity between users' lists of recommendations, higher score -> less similarity 
+ - Precision(P@k): the percentage of relevant documents among the top-k documents.
+ - Recall@k : the percentage of the relevant documents that are succesfully recommended.
+ - Average precision(Ap@K) 
+ - Mean average precision(MAP@K)
+ - Personalization (average cosine similarity): gives the dissimilarity between users' lists of recommendations
 
 
  
