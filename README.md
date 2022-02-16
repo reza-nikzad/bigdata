@@ -36,8 +36,8 @@ Prediction accuracy is generally independent of the user interface and can be es
 
  - Precision(P@k): the percentage of relevant documents among the top-k documents.
  - Recall@k : the percentage of the relevant documents that are succesfully recommended.
- - Average precision(Ap@K) 
- - Mean average precision(MAP@K)
+ - Average precision(Ap@K): the mean of AP@i for i = 1, ..., K.
+ - Mean average precision(MAP@K): the mean of Ap@K where i = 1, ..., K.
  - Personalization (average cosine similarity): gives the dissimilarity between users' lists of recommendations
 
 ## Libraries: 
