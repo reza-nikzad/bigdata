@@ -1,7 +1,7 @@
 # Bigdata Project Team - 21
-Music-recommendation-system
+# Music Recommendation System
 
-# Dataset: http://millionsongdataset.com/
+Dataset: http://millionsongdataset.com/
  - MillionSongSubset
  - TRIPLETS FOR 1M USERS
  
