@@ -14,10 +14,11 @@ The Million Song Dataset(http://millionsongdataset.com/) will be used in this pr
  The song dataset is accessible in two ways, by reading HDF5 hierarchical directories and SQLite database. The aforementioned data models can be created by using pandas and sqlite3 libraries with connecting to SQLite database. The models will be converted from pandas dataframe to pyspark datafram and data extrapolation and data pruning will be handled by pyspark library. 
 
 ## Algorithms:
-  - Content-Based filtering:  
-  - Collaborative filtering:
+  - Content-Based filtering  
+  - Collaborative filtering(user-user)
  
-The two algorithms we will use and compare are the Content-Based Filtering and the Collaborative Filtering. We will use the Content-Based Filtering to recommend music based on a user’s profile. For instance, we will recommend music with the same artist, album, genre and so on, such that we recommend music that has similar content. We will also use the Collaborative Filtering to recommend music based on similar users. For instance, recommending music from a user’s music history. Both of these algorithms will allow us to compare and analyze measure of success. 
+The two algorithms we will use and compare are the Content-Based Filtering and the Collaborative Filtering. We will use the Content-Based Filtering to recommend music based on a user’s profile. For instance, we will recommend music with the same artist, album, genre and so on, such that we recommend music that has similar content. We will also use the Collaborative Filtering to recommend music based on similar users(user-user). For instance, recommending music from a user’s music history. Both of these algorithms will allow us to compare and analyze measure of success. 
+(If the time allows we will implement Latent-Factor algorithm)
 
 ## Research Questions:
 In Content-based techniques: 
