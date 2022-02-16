@@ -11,12 +11,7 @@ The Million Song Dataset(http://millionsongdataset.com/) will be used in this pr
 - ArtistGenre(1109381): <artist_id, genre>
 - Users(1M): <user_id, song_id, played_count>
 
- The song dataset is accessible in two ways, by reading HDF5 hierarchical directories and SQLite database. Aforementioned data models can be created by using pandas and sqlite3 libraries with connecting to SQLite database. 
-
-## Data preprocessing: 
- - Main characteristics and relative features to our questions. 
- - Pruning the dataset(Removing empty rows).
- - Removing musics from the user dataset which are not in the dataset.
+ The song dataset is accessible in two ways, by reading HDF5 hierarchical directories and SQLite database. Aforementioned data models can be created by using pandas and sqlite3 libraries with connecting to SQLite database. The models will be converted from pandas dataframe to pyspark datafram and data extrapolation and data pruning will be handled by pyspark library.  
 
 ## Research Questions: (Recommending music)
 
@@ -29,10 +24,6 @@ The Million Song Dataset(http://millionsongdataset.com/) will be used in this pr
 - What is collaborative filtering, and why should we use it?
 - How can we personalise next-track music recommendations by extracting long-term preference signals from users' long-term listening behaviour, such as favourite   songs or favourite artists?
 
- 
- 
-
-
 ## Metrics to measure the accuracy: 
 Prediction accuracy is generally independent of the user interface and can be estimated offline by implementing different supervised machine learning evaluation metrics. In this part, the different algorithms could be evaluated and compared. The metrics give insight into how relevant the list of recommended items is. K is chosen as the top number of recommended documents.
 
@@ -41,13 +32,6 @@ Prediction accuracy is generally independent of the user interface and can be es
  - Average precision(Ap@K) 
  - Mean average precision(MAP@K)
  - Personalization (average cosine similarity): gives the dissimilarity between users' lists of recommendations
-
-
- 
-
-
-
-
 
 
 ## Algorithms:
