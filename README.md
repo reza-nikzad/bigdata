@@ -1,4 +1,4 @@
-# bigdata-project-team21
+# Bigdata Project Team - 21
 Music-recommendation-system
 
 # Dataset: http://millionsongdataset.com/
