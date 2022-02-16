@@ -53,6 +53,7 @@ In the evaluation part, the different algorithms could be evaluated and compared
 ## Algorithms:
   - Content-Based filtering: recommend music based on user profile 
   - Collaborative filtering: Recommend music based on similar users 
+
 The two algorithms we will use and compare are the Content-Based Filtering and the Collaborative Filtering. We will use the Content-Based Filtering to recommend music based on a user’s profile. For instance, we will recommend music with the same artist, album, genre and so on, such that we recommend music that has similar content. We will also use the Collaborative Filtering to recommend music based on similar users. For instance, recommending music from a user’s music history. Both of these algorithms will allow us to compare and analyze measure of success. 
 
 ## Libraries: 
