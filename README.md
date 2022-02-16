@@ -5,6 +5,10 @@
  - MillionSongSubset
  - TRIPLETS FOR 1M USERS
  
+## Model Classes:
+ - User Model.
+ - Songs MetaData Model.
+ 
 ## Data preprocessing: 
  - Main characteristics and relative features to our questions: 
  - Pruning the dataset.(removing empty rows)
