@@ -34,7 +34,7 @@
 
 
 ## Metrics to measure the accuracy: 
-In the evaluation part, the different algorithms could be evaluated and compared. The user dataset is split into training and test. Then, a recommendation model is trained using each of the algorithms below. The metrics give insight into how relevant the list of recommended items is by evaluating top K recommended documents.
+Prediction accuracy is generally independent of the user interface and can thus be estimated offline and represent implementations of different supervised machine learning evaluation metrics. In this part, the different algorithms could be evaluated and compared. The user dataset is split into training and test. Then, a recommendation model is trained using each of the algorithms below. The metrics give insight into how relevant the list of recommended items is by evaluating top K recommended documents.
 
  - Precision(P@k): gives the percentage of relevant documents among the top-k documents.
  - Recall@k : gives percentage of the relevant documents that are succesfully recommended.
