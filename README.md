@@ -24,7 +24,7 @@ In Content-based techniques:
 - What genre, song, artist or album would a user prefer to be recommended based on used profile?
 - How to find an appropriate feature to be considered in recommendation? 
 
-In colaborative techniques: 
+In collaborative techniques: 
 - How can we use the data set to identify users with similar musical preferences?
 - How can features be linked with patterns in users' listening behaviour? (How similar users will be found)
 - How can we personalise next-track music recommendations by extracting long-term preference signals from users' long-term listening behaviour, such as favourite songs or favourite artists? 
