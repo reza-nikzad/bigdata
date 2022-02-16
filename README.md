@@ -54,7 +54,7 @@
  - numPy
  - sqlite3
  
-# Features to be extracted:  
+### Features to be extracted:  
   artist_hotttnesss ,
   artist_id, 
   artist_name, 
