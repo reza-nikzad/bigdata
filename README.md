@@ -14,7 +14,8 @@ Dataset: http://millionsongdataset.com/
 
  1- How to address cold start problem in collaborative filtering techniques?  
  2- How to find similar users from dataset in collaborative filtering techniques?
- 3- 
+ 3- How to recommend music to new users in Content-based algorithm? 
+ 4- 
  
  
  
