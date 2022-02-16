@@ -1,16 +1,16 @@
 # bigdata-project-team21
 Music-recommendation-system
 
-Dataset: http://millionsongdataset.com/
+# Dataset: http://millionsongdataset.com/
  - MillionSongSubset
  - TRIPLETS FOR 1M USERS
  
-Data preprocessing: 
+# Data preprocessing: 
  - Main characteristics and relative features to our questions: 
  - Pruning the dataset.(removing empty rows)
  - Removing musics from the user dataset which are not in the dataset
 
-Questions: (Recommending music)
+# Research Questions: (Recommending music)
 
  1- How to address cold start problem in collaborative filtering techniques?  
  2- How to find similar users from dataset in collaborative filtering techniques?
@@ -44,17 +44,17 @@ The class of models to be applied to the dataset:
 
 
 
-Algorithms:
+# Algorithms:
   - Content-Based filtering: recommend music based on user profile 
   - Collaborative filtering: Recommend music based on similar users 
 
-Libraries: 
+# Libraries: 
  - pyspark 
  - pandas
  - numPy
  - sqlite3
  
-Features to be extracted:  
+# Features to be extracted:  
   artist_hotttnesss ,
   artist_id, 
   artist_name, 
@@ -65,7 +65,7 @@ Features to be extracted:
   danceability, 
   energy, 
   loudness, 
-  tempo
+  tempo,
   time_signature, 
   segments_timbre
 
@@ -74,7 +74,7 @@ Features to be extracted:
   song_id, 
   title, 
   track_id, 
-  key
-  albumName 
-  albumId
+  key,
+  albumName, 
+  albumId.
 
