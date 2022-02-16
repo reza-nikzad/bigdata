@@ -1,16 +1,16 @@
 # Bigdata Project (Team - 21)
-## Music Recommendation System
+# Music Recommendation System
 
-Dataset: http://millionsongdataset.com/
+## Dataset: http://millionsongdataset.com/
  - MillionSongSubset
  - TRIPLETS FOR 1M USERS
  
-# Data preprocessing: 
+## Data preprocessing: 
  - Main characteristics and relative features to our questions: 
  - Pruning the dataset.(removing empty rows)
  - Removing musics from the user dataset which are not in the dataset
 
-# Research Questions: (Recommending music)
+## Research Questions: (Recommending music)
 
  1- How to address cold start problem in collaborative filtering techniques?  
  2- How to find similar users from dataset in collaborative filtering techniques?
@@ -33,23 +33,22 @@ Dataset: http://millionsongdataset.com/
  
 
 
-The metric to measure the accuracy: 
+## Metrics to measure the accuracy: 
  - Mean average precision at k (MAP@K)
  - 
  - 
 
-The class of models to be applied to the dataset:
- -
 
 
 
 
 
-# Algorithms:
+
+## Algorithms:
   - Content-Based filtering: recommend music based on user profile 
   - Collaborative filtering: Recommend music based on similar users 
 
-# Libraries: 
+## Libraries: 
  - pyspark 
  - pandas
  - numPy
