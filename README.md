@@ -25,7 +25,7 @@ The Million Song Dataset(http://millionsongdataset.com/) will be used in this pr
 - How can we personalise next-track music recommendations by extracting long-term preference signals from users' long-term listening behaviour, such as favourite   songs or favourite artists?
 
 ## Metrics to measure the accuracy: 
-Prediction accuracy is generally independent of the user interface and can be estimated offline by implementing different supervised machine learning evaluation metrics. In this part, the different algorithms could be evaluated and compared. The metrics give insight into how relevant the list of recommended items is. K is chosen as the top number of recommended documents.
+Prediction accuracy is generally independent of the user interface and can be estimated offline by implementing different supervised machine learning evaluation metrics. In this part, the different algorithms could be compared. The metrics give insight into how relevant the list of recommended items is. K is chosen as the top number of recommended documents.
 
  - Precision(P@k): the percentage of relevant documents among the top-k documents.
  - Recall@k : the percentage of the relevant documents that are succesfully recommended.
