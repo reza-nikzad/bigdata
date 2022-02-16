@@ -34,10 +34,13 @@
 
 
 ## Metrics to measure the accuracy: 
- - Mean average precision at k (MAP@K)
- - 
- - 
+In the evaluation part, the different algorithms could be evaluated and compared. The user dataset is split into training and test. Then, a recommendation model is trained using each of the algorithms below. The metrics give insight into how relevant the list of recommended items is by evaluating top K recommended documents.
 
+ - Precision(P@k): gives the percentage of relevant documents among the top-k documents.
+ - Recall@k : gives percentage of the relevant documents that are succesfully recommended.
+ - Average precision(Ap@K): gives the mean of P@i for i=1, ..., K.  
+ - Mean average precision at k (MAP@K): gives the mean of Ap@K.
+ 
 
 
 
