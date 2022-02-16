@@ -60,6 +60,8 @@ The two algorithms we will use and compare are the Content-Based Filtering and t
  - sklearn
  - matplotlib 
  - seaborn
+ - h5py
+ - pytables
  
 ### Features to be extracted:  
   artist_hotttnesss ,
