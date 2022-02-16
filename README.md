@@ -23,7 +23,7 @@
 - How can metadata features be linked with patterns in users' listening behaviour?
 - What is content-based filtering, and why should we use it?
 - What is collaborative filtering, and why should we use it?
-- How can we personalise next-track music recommendations by extracting long-term preference signals from users' long-term listening behaviour, such as favourite   songs, favourite artists, or favourite themes?
+- How can we personalise next-track music recommendations by extracting long-term preference signals from users' long-term listening behaviour, such as favourite   songs or favourite artists?
 
  
  
