@@ -12,7 +12,7 @@ Data preprocessing:
 
 Questions: (Recommending music)
 
- 1- How to address cold start problem?  
+ 1- How to address cold start problem in collaborative filtering techniques?  
  2- How to find similar users from dataset in collaborative filtering techniques?
  3- 
  
