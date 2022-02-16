@@ -16,14 +16,6 @@
 
 ## Research Questions: (Recommending music)
 
- 1- How to address cold start problem in collaborative filtering techniques?  
- 2- How to find similar users from dataset in collaborative filtering techniques?
- 3- How to recommend music to new users in Content-based algorithm? 
- 4- 
- 
- 
- 
- 
 - What genre, song, artist or album would a user prefer to be recommended?
 - How can we use the data set to identify users with similar musical preferences?
 - What are the qualities that consumers want to see in their playlists?
