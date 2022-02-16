@@ -40,6 +40,9 @@ In the evaluation part, the different algorithms could be evaluated and compared
  - Recall@k : gives percentage of the relevant documents that are succesfully recommended.
  - Average precision(Ap@K): gives the mean of P@i for i=1, ..., K.  
  - Mean average precision(MAP@K): gives the mean of Ap@K.
+ - Personalization (average cosine similarity): gives the dissimilarity between users' lists of recommendations, higher score -> less similarity 
+
+
  
 
 
