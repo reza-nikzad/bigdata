@@ -1,14 +1,18 @@
 # Bigdata Project (Team - 21)
 # Music Recommendation System
 
-## Dataset: http://millionsongdataset.com/
- - MillionSongSubset
- - TRIPLETS FOR 1M USERS
- 
-## Model Classes:
- - User Model.
- - Songs MetaData Model.
- 
+## Dataset and data models: 
+The Million Song Dataset(http://millionsongdataset.com/) will be used in this project. It consists of two dataset, 1 million songs and 1 million users. The dataset containing 55 features which we are going to extract some of these features and create our data models as follows: 
+- Songs(1M): <Track_id, title, song_id, release, artist_id, artist_name, artist_familiarity, artist_hotttnesss , year>
+- Artists(44745): <artist_id>
+- ArtistsSimilarity(2201916): <artist_id, artist_id>
+- ArtistMBtags(24777): <artist_id, mbtags> 
+- MusicBrainzTags(2321): <mbtags>
+- ArtistGenre(1109381): <artist_id, genre>
+- Users(1M): <user_id, song_id, played_count>
+
+ The song dataset is accessible in two ways, by reading HDF5 hierarchical directories and SQLite database. Aforementioned data models can be created by using pandas and sqlite3 libraries with connecting to SQLite database. 
+
 ## Data preprocessing: 
  - Main characteristics and relative features to our questions. 
  - Pruning the dataset(Removing empty rows).
@@ -62,28 +66,5 @@ The two algorithms we will use and compare are the Content-Based Filtering and t
  - seaborn
  - h5py
  - pytables
- 
-### Features to be extracted:  
-  artist_hotttnesss ,
-  artist_id, 
-  artist_name, 
-  artist_location, 
-  year
-  title, 
-  similar_artists, 
-  danceability, 
-  energy, 
-  loudness, 
-  tempo,
-  time_signature, 
-  segments_timbre
 
-  num_songs, 
-  artist_id,
-  song_id, 
-  title, 
-  track_id, 
-  key,
-  albumName, 
-  albumId.
 
