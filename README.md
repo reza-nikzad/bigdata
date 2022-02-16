@@ -1,4 +1,4 @@
-#                                                                  Bigdata Project (Team - 21)
+# Bigdata Project (Team - 21)
 # Music Recommendation System
 
 ## Dataset and data models: 
@@ -11,7 +11,7 @@ The Million Song Dataset(http://millionsongdataset.com/) will be used in this pr
 - ArtistGenre(1109381): <artist_id, genre>
 - Users(1M): <user_id, song_id, played_count>
 
- The song dataset is accessible in two ways, by reading HDF5 hierarchical directories and SQLite database. Aforementioned data models can be created by using pandas and sqlite3 libraries with connecting to SQLite database. The models will be converted from pandas dataframe to pyspark datafram and data extrapolation and data pruning will be handled by pyspark library.  
+ The song dataset is accessible in two ways, by reading HDF5 hierarchical directories and SQLite database. The aforementioned data models can be created by using pandas and sqlite3 libraries with connecting to SQLite database. The models will be converted from pandas dataframe to pyspark datafram and data extrapolation and data pruning will be handled by pyspark library.  
 
 ## Research Questions: (Recommending music)
 
