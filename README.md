@@ -53,6 +53,9 @@
  - pandas
  - numPy
  - sqlite3
+ - sklearn
+ - matplotlib 
+ - seaborn
  
 ### Features to be extracted:  
   artist_hotttnesss ,
