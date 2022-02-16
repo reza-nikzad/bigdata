@@ -11,12 +11,10 @@ Data preprocessing:
  - Removing musics from the user dataset which are not in the dataset
 
 Questions: (Recommending music)
- 1- What type of genre a user would like to be recommended? 
-  user -> find users with similar plaied music to the user -> recommend most common music between users  
- 2- What type of album_name a user would like to be recommended? 
- 3- What type of artist_name a user would like to be recommended?
- 4- What is the most similar user between other users and recommond all the song of that user? 
- 5- 
+
+ 1- How to address cold start problem?  
+ 2- How to find similar users from dataset in collaborative filtering techniques?
+ 3- 
  
  
  
@@ -52,15 +50,31 @@ Algorithms:
 
 Libraries: 
  - pyspark 
- - panda
+ - pandas
  - numPy
- - 
+ - sqlite3
  
 Features to be extracted:  
-  get_artist_hotttnesss , get_artist_id, get_artist_name, get_artist_location, get_year
-  get_title, get_similar_artists, get_danceability, get_energy, get_loudness, get_tempo
-  get_time_signature, get_segments_timbre
+  artist_hotttnesss ,
+  artist_id, 
+  artist_name, 
+  artist_location, 
+  year
+  title, 
+  similar_artists, 
+  danceability, 
+  energy, 
+  loudness, 
+  tempo
+  time_signature, 
+  segments_timbre
 
-  get_num_songs, get_artist_id, get_song_id, get_title, get_track_id, get_key
-  we need albumName and albumId
+  num_songs, 
+  artist_id,
+  song_id, 
+  title, 
+  track_id, 
+  key
+  albumName 
+  albumId
 
