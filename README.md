@@ -22,7 +22,7 @@ The two algorithms we will use and compare are the Content-Based Filtering and t
 
 ## Research Questions:
 In Content-based techniques: 
-- What genre, song, artist or album would a user prefer to be recommended based on used profile?
+- What genre, song, artist or album would a user prefer to be recommended based on user profile?
 - How to find an appropriate feature to be considered in recommendation? 
 
 In collaborative techniques: 
